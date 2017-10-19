@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420054983799",
+    "firebase_url": "https://clickcity-daa46.firebaseio.com",
+    "project_id": "clickcity-daa46",
+    "storage_bucket": "clickcity-daa46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420054983799:android:867f6922d0008679",
+        "android_client_info": {
+          "package_name": "com.example.zark.clickcitycinema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420054983799-1htn09j4u7fihlfdaqt8hnq40lakjldc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zark.clickcitycinema",
+            "certificate_hash": "274a38ec2be7c1248ea7459cea58a00be836527f"
+          }
+        },
+        {
+          "client_id": "420054983799-jt3i33b9phri2en3te58flcv69thkbjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEGxq86ZFMsj_LU6wYYqHu027zOimTMjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420054983799-jt3i33b9phri2en3te58flcv69thkbjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

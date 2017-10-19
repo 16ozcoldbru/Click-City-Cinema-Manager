@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Click-City-Cinema-Manager.iml" filepath="$PROJECT_DIR$/Click-City-Cinema-Manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClickCityCinema.iml" filepath="$PROJECT_DIR$/ClickCityCinema.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
