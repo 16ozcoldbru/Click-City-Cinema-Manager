@@ -37,3 +37,11 @@ exports.makeUppercase = functions.database.ref('/messages/{pushId}/original')
       // Setting an "uppercase" sibling in the Realtime Database returns a Promise.
       return event.data.ref.parent.child('uppercase').set(uppercase);
     });
+
+exports.addMovie = functions.database.ref('/currentMovies/{pushId}/url')
+    .onWrite(event => {
+      // Grab the current movie url
+      const url = event.data.val();
+      console.log('Getting url', event.params.pushId, url);
+      return event.data.ref.parent.child('ticketsSold').set(25);
+    });
