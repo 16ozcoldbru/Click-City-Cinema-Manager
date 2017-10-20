@@ -38,6 +38,16 @@ exports.makeUppercase = functions.database.ref('/messages/{pushId}/original')
       return event.data.ref.parent.child('uppercase').set(uppercase);
     });
 
+exports.addTestMovie = functions.https.onRequest((req, res) => {
+      // Grab the text parameter.
+      const url = req.query.text;
+      // Push the new message into the Realtime Database using the Firebase Admin SDK.
+      admin.database().ref('/currentMovies').push({url: url}).then(snapshot => {
+        // Redirect with 303 SEE OTHER to the URL of the pushed object in the Firebase console.
+        res.redirect(303, snapshot.ref);
+      });
+    });
+
 exports.addMovie = functions.database.ref('/currentMovies/{pushId}/url')
     .onWrite(event => {
       // Grab the current movie url
