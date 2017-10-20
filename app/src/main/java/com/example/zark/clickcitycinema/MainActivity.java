@@ -1,5 +1,10 @@
 package com.example.zark.clickcitycinema;
 
+/**
+ * October 2017
+ * Made by Andrew Osborne
+ */
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
